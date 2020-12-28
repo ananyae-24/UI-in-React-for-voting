@@ -1,0 +1,76 @@
+.Box {
+  border: 1px solid black;
+  padding: 15%;
+  background-color: white;
+  text-align: center;
+}
+.name {
+}
+.btn_blue {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: blue;
+  background-color: lightskyblue;
+}
+.btn_yello {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: 2px orange;
+  background-color: lightyellow;
+}
+.btn_green {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: green;
+  background-color: lightgreen;
+}
+.btn_blue_active {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: 2px solid blue;
+  background-color: blue;
+  color: white;
+}
+.btn_yello_active {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: 2px solid orange;
+  background-color: orange;
+  color: white;
+}
+.btn_green_active {
+  width: 60%;
+  height: 20%;
+  border-radius: 10px;
+  border: 2px solid green;
+  background-color: green;
+  color: white;
+}
+.btn_blue:hover {
+  background-color: blue;
+  color: white;
+}
+.btn_yello:hover {
+  color: white;
+  background-color: orange;
+}
+.btn_green:hover {
+  color: white;
+  background-color: green;
+}
+
+@media (max-width: 420px) {
+  .Box {
+    padding: 0;
+    width: 100px;
+  }
+  .btn {
+    height: 30px;
+    width: 60px;
+  }
+}

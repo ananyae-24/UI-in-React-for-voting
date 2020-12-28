@@ -1,0 +1,43 @@
+.Modal {
+  position: fixed;
+  z-index: 2500;
+  background-color: white;
+  width: 70%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  height: 40%;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
+.success {
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  margin: auto;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+.error {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin: auto;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.arrange {
+  height: 160px;
+  width: 160px;
+}
