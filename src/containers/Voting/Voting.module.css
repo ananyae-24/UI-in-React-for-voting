@@ -10,6 +10,7 @@
   position: relative;
   left: 50%;
   top: 100px;
+  margin-top: 20px;
 }
 .btn:hover {
   background: black;
@@ -41,4 +42,50 @@
     left: 2%;
     grid-template-columns: repeat(3, 0.5fr);
   }
+}
+.standardbox {
+  width: 60%;
+  height: 50%;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.standardbox.p {
+  padding: 20px;
+}
+.heading_ {
+  font-size: 250%;
+}
+.input_ {
+  width: 50;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.btn_back {
+  padding: 10px;
+  background-color: lightsalmon;
+  color: black;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px;
+}
+.finalsubmit {
+  padding: 10px;
+  background-color: lightgreen;
+  color: black;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 2px 2px;
+}
+.btn_back:hover {
+  background-color: red;
+}
+.finalsubmit:hover {
+  background-color: lime;
 }

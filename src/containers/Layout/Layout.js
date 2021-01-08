@@ -14,10 +14,10 @@ class layout extends Component {
           <Route path="/vote" component={Voting} />
           <Route path="/" component={Register} />
         </Switch>
-        <div className={classes.footer}>
+        {/* <div className={classes.footer}>
           <p style={{ marginTop: "0" }}>Powered By</p>
           <h3 style={{ marginTop: "0" }}>EC</h3>
-        </div>
+        </div> */}
       </div>
     );
   }
